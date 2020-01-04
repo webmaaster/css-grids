@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Grids</title>
+    <style>
+        .grid {
+            display: grid;
+           /* grid-template-columns: 200px 200px 200px 200px;
+
+            grid-template-columns: repeat(3, auto);
+            */
+            grid-template-columns: 2fr 2fr 1fr;
+        
+            grid-gap: 1rem;
+        
+        
+        }
+        .item {
+            padding: 3rem;
+            border: 2px #ccc solid;
+            background: #f4f4f4;
+            font-size: 1.3rem;
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <div class="item">Item One</div>
+        <div class="item">Item Two</div>
+        <div class="item">Item Three</div>
+        <div class="item">Item Three</div>
+        <div class="item">Item Three</div>
+        <div class="item">Item Three</div>
+        <div class="item">Item Three</div>
+        <div class="item">Item Three</div>
+        <div class="item">Item Three</div>
+        <div class="item">Item Three</div>
+        <div class="item">Item Three</div>
+        
+    </div>
+</body>
+</html>
